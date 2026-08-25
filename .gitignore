@@ -3,6 +3,18 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# البيئة الافتراضية (Virtual Environment)
+venv/
+.venv/
+env/
+
+# قاعدة البيانات المحلية (SQLite)
+*.sqlite3
+db.sqlite3
+
+# ملفات الإعدادات الحساسة وملفات البيئة
+.env
+
 # C extensions
 *.so
 
