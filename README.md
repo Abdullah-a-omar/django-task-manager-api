@@ -33,3 +33,22 @@ A RESTful API built with Django and Django REST Framework for managing tasks, fe
    ```bash
    git clone https://github.com/Abdullah-a-omar/django-task-manager-api.git
    cd django-task-manager-api
+
+2. **Create and activate a virtual environment:**
+   python -m venv venv
+   # Windows:
+   venv\Scripts\activate
+   # Linux/macOS:
+   source venv/bin/activate
+
+3. **Install dependencies:**
+   pip install -r requirements.txt
+
+4. **Apply database migrations:**
+   python manage.py migrate
+
+5. **Run the development server:**
+  python manage.py runserver
+
+6. **Access Documentation:**
+  Open http://127.0.0.1:8000/api/docs/ in your browser
